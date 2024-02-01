@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
+    <title>Document</title>
+    <style>
+        .card-image {
+            background-image: url('https://images.all-free-download.com/images/graphiclarge/university_graduation_drawing_bachelor_in_uniform_colored_cartoon_6835019.jpg');
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-image">
+                <h2 class="card-heading">
+                </h2>
+            </div>
+            <form method="post" name="form1" class="card-form">
+                <table align="center">
+                    <tr align="center">
+                        <td align="center"><b>
+                                <font size="6">Faculty Feedback</font>
+                            </b></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="input">
+                                <input class="input-field textbox" type="textarea" placeholder="Name"
+                                    name="txtFirstName">
+                                <span class="focus-border"></span>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="input">
+                                <input class="input-field textbox" placeholder="Roll no." type="text" name="txtRoll">
+                                <span class="focus-border"></span>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>
+                            <div class="input">
+                                <input class="input-field textbox" type="text" placeholder="Email" name="txtEmail">
+                                <span class="focus-border"></span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="input">
+                                <input class="input-field textbox" placeholder="Faculty Name" type="text"
+                                    name="txtFaculty">
+                                <span class="focus-border"></span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <label>Gender: &emsp;</label>
+                            <input type="radio" value="male" name="gender">
+                            <label for="male">Male</label>
+                            <input type="radio" value="female" name="gender">
+                            <label for="female">Female</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="input">
+                                <select class="input-field textbox" name="cars" id="cars">
+                                    <option value="Web">Web</option>
+                                    <option value="ML">ML</option>
+                                    <option value="AI">AI</option>
+                                    <option value="Embedded">Embedded</option>
+                                </select>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="input">
+                                <textarea class="input-field textbox" placeholder="suggestions" type="text"
+                                    name="txtAddress"></textarea>
+                                <span class="focus-border"></span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br><button class="action-button">Submit</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="action-button" type="reset">Reset</button>
+                        </td>
+                    </tr>
+                </table>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
